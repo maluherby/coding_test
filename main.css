@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+  font-family: "Open Sans", sans-serif;
+  background: black;
+  color: white;
+}
+.circle {
+    position: relative;
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    padding-top: 100%;
+}
+.square{
+    position: relative;
+    border-radius: 0!important;
+    width: 100%;
+    height: auto;
+    padding-top: 100%;
+}
+.circle:hover{
+    opacity: 0.5;
+}
+
+#red{
+    background: red;
+}
+
+
+#green{
+    background: green;
+}
+
+#blue{
+    background: blue;
+}
+
+#orange{
+    background: orange;
+}
+
+#yellow{
+    background: yellow;
+}
+
+@media (max-width:768px){
+    body{
+        background:white;
+        color: black;
+    }
+}
+
